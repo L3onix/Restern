@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=restern
+Exec=restern
+Icon=io.github.l3onix.Restern
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true

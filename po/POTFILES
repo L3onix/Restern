@@ -1,0 +1,6 @@
+data/io.github.l3onix.Restern.desktop.in
+data/io.github.l3onix.Restern.metainfo.xml.in
+data/io.github.l3onix.Restern.gschema.xml
+src/main.py
+src/window.py
+src/window.ui
