@@ -20,11 +20,10 @@
           </object>
         </child>
         <property name="content">
-          <object class="GtkLabel" id="label">
-            <property name="label">Hello, World!</property>
-            <style>
-              <class name="title-1"/>
-            </style>
+          <object class="GtkScrolledWindow" id="payload_scrolled_window">
+            <child>
+              <object class="GtkTextView" id="payload_text_view"></object>
+            </child>
           </object>
         </property>
       </object>

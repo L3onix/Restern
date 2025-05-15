@@ -24,7 +24,9 @@ from gi.repository import Gtk
 class ResternWindow(Adw.ApplicationWindow):
     __gtype_name__ = 'ResternWindow'
 
-    label = Gtk.Template.Child()
+
+    payload_text_view = Gtk.Template.Child()
+    payload_scrolled_window = Gtk.Template.Child()
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
