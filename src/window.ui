@@ -9,6 +9,39 @@
       <object class="AdwToolbarView">
         <child type="top">
           <object class="AdwHeaderBar" id="header_bar">
+
+            <!-- Campo de input de URL para requisição -->
+            <child type="title">
+              <object class="GtkBox" id="header_title_box">
+                <property name="orientation">horizontal</property>
+                <property name="spacing">6</property>
+                <property name="margin-start">12</property>
+                <property name="margin-end">12</property>
+
+                <child>
+                  <object class="GtkEntry" id="url_entry">
+                    <property name="hexpand">True</property>
+                    <property name="placeholder-text">Digite uma URL...</property>
+                    <property name="primary-icon-name">globe-symbolic</property>
+                    <property name="width-chars">40</property>
+                  </object>
+                </child>
+
+                <child>
+                  <object class="GtkButton" id="url_send_button">
+                    <property name="child">
+                      <object class="AdwButtonContent">
+                        <property name="icon-name">document-open-symbolic</property>
+                        <property name="label" translatable="yes">_Send</property>
+                        <property name="use-underline">True</property>
+                      </object>
+                    </property>
+                  </object>
+                </child>
+
+              </object>
+            </child>
+
             <child type="end">
               <object class="GtkMenuButton">
                 <property name="primary">True</property>
